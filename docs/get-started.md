@@ -5,20 +5,10 @@ sidebar_label: Introduction
 sidebar: docs
 ---
 
-Integration is easy via {mono}say Platform even you are not using a Framework for your Bot.
+<img src="/img/svg/tasks.svg" width="200" />
 
-We will tell you how to integrate your bot via {mono}say with Bot Frameworks and also API.
+Integration is an easy task via {mono}say Platform even if you are not using a Framework for your Bot.
 
-### <i class="fas fa-code"></i> With Bot Frameworks
+We will explain you how to integrate your bot with {mono}say with Bot Frameworks and also API.
 
-Right now, we do support,
-
-| Platform | Website | Languages | 
-| --------- | -------- | ------------- |
-| Microsoft Bot Framework | <i class="fas fa-globe"></i> [https://dev.botframework.com/](https://dev.botframework.com/) | NodeJS, C# |
- 
-### <i class="fas fa-code"></i> With API
-
-Via API's you can implement your own middleware which helps you to implement {mono}say to your bot project.
-
-[<i class="fas fa-book"></i> Click here](api.html) and see the API documentation.
+[<i class="fas fa-book"></i> Click here](api.html) to see the API documentation.  

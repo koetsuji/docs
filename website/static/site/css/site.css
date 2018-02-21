@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=latin-ext');
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.showCase .blockImage {
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+}
+
+.lightBackground {
+    background: #fff;
+    border-top: 1px solid #ededed;
+}
+
+.text-muted {
+    color: #868686;
+}
+
+.navigationSlider .slidingNav ul {
+    background: #333;
+}
+
+.b-box-holder {
+    display: flex;
+}
+
+.b-box-item {
+    padding: 17px 25px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px 2px transparent;
+    border-radius: 0;
+    text-decoration: none !important;
+}
+
+.b-box-item p {
+    font-size: 10pt;
+    color: #dadada;
+    visibility: hidden;
+}
+
+.b-box-item img,
+.b-box-item svg {
+    width: 200px;
+    max-height: 200px;
+}
+
+.b-box-item span {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    font-size: 11pt;
+}
+
+.b-box-item:hover {
+    text-align: center;
+    box-shadow: 0 0 20px 2px #dddddd7a;
+    border-radius: 0;
+}
+
+.b-box-item:hover p {
+    color: #1735e0;
+    visibility: visible;
+}
+
+.navGroups {
+    box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.2);
+}
+
+.navGroup {
+    background: #ffffff !important;
+}
+
+.navItem {
+    display: block !important;
+    margin-bottom: 10px !important;
+}
+
+.navItemActive {
+    border-left: 4px solid #588fdc !important;
+    padding-left: 10px !important;
+    border-radius: 3px !important;
+    color: #588fdc !important;
+}
+
+.inline-link {
+    padding: 4px;
+    background: #ddd;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    text-decoration: none !important;
+}
+
+.inline-link:hover {
+    background: #f4f4f4;
+}
+
+.intro {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px 0px #dddddd75;
+}
+
+.intro h3 {
+    margin-top: 0 !important;
+}
+
+.postHeader h1 {
+    font-size: 26pt !important;
+    border-bottom: 1px solid #ddd !important;
+    padding-bottom: 20px !important;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+    .navigationSlider .slidingNav ul {
+        background: #868686;
+    }
+}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 1500px) {}

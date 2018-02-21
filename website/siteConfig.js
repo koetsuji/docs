@@ -41,9 +41,21 @@ const siteConfig = {
         // Highlight.js theme to use for syntax highlighting in code blocks
         theme: 'default',
     },
-    scripts: ['https://buttons.github.io/buttons.js', 'https://use.fontawesome.com/releases/v5.0.6/js/all.js'],
+    editUrl: "https://github.com/monosay/docs/edit/master/docs/",
+    scripts: [
+        'http://code.jquery.com/jquery-3.3.1.min.js',
+        'https://buttons.github.io/buttons.js',
+        'https://use.fontawesome.com/releases/v5.0.6/js/all.js',
+        'https://unpkg.com/spiritjs/dist/spirit.js',
+        '/site/js/svg-replace.js'
+    ],
     // You may provide arbitrary config keys to be used as needed by your template.
     repoUrl: 'https://github.com/monosay/docs',
+    stylesheets: [
+        "/site/css/site.css?v=1.0.0",
+        "/site/css/browser-mockup.css?v=1.0.0",
+        "https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=latin-ext"
+    ]
 };
 
 module.exports = siteConfig;

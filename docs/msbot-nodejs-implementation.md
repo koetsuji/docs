@@ -1,20 +1,33 @@
 ---
 id: msbot-nodejs-implementation
-title: Implementation
+title: How to Implement
 sidebar_label: Implementation - NodeJS
 ---
 
-First of all, If you don't know how to build a bot with Microsoft Bot Framework (NodeJS), you can check the [<i class="fas fa-book"></i> documentation](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-quickstart).
+<div class="intro">
 
-## Implementation
+### <i class="fas fa-code"></i> Development
+
+First of all, if you don't know how to build a bot with Microsoft Bot Framework (NodeJS), you can check the <a target="_blank" href="https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-quickstart" class="inline-link"><i class="fab fa-microsoft"></i> documentation</a>.
+
+Also there are lots of samples about Microsoft Bot Framework on their <a target="_blank" href="https://github.com/Microsoft/BotBuilder-Samples" class="inline-link"><i class="fab fa-github"></i> Github Repository</a>.
+
+</div>
+
+### <i class="fas fa-info-circle"></i> Implementation
 
 Let's go step by step.
 
-1. You need to install our nodejs package to your project.
+1. You need to install our nodejs package to your project
+
+
+<div class="browser-mockup">
 
 ```bash
 npm install monosay@https://www.myget.org/F/monosay/npm/monosay/-/monosay-1.0.0-beta03.tgz
 ```
+
+</div>
 
 2. You must create a bot on our platform
 
@@ -22,7 +35,7 @@ npm install monosay@https://www.myget.org/F/monosay/npm/monosay/-/monosay-1.0.0-
 
 3. You must create a channel to connect with
 
-If you already have your token just skip this step.
+If you already have your token just skip this step
 
 - Go to your bot
 - Click channels
@@ -33,6 +46,8 @@ Keep your token for next step.
 
 4. Import the library
 
+<div class="browser-mockup">
+
 ```javascript
 var restify = require('restify');
 var builder = require('botbuilder');
@@ -42,7 +57,12 @@ var monosay = require('monosay').usebotframework("YOUR_MONOSAY_TOKEN");
 // ...
 ```
 
+</div>
+
+
 5. Initialize the library
+
+<div class="browser-mockup">
 
 ```javascript
 // ...
@@ -55,7 +75,11 @@ monosay.init(bot);
 // ...
 ```
 
-6. Set the session storage (Optional but highly recommended)
+</div>
+
+6. Set the session storage (optional but highly recommended)
+
+<div class="browser-mockup">
 
 ```javascript
 // ...
@@ -67,17 +91,22 @@ monosay.init(bot);
 // ...
 ```
 
+</div>
+
 7. Start messaging with your bot.
-8. Go to your Bot's dashboard
+8. Go to your bot's dashboard
 9. You will start to see your Analytics, Conversations and more...
-- Dashboard
-<img src="/img/screenshots/monosay-analytics.png" style="margin: 50px 20px; padding: 8px; box-shadow: 0 0 20px 0 #ddd" />
-- Conversations
-<img src="/img/screenshots/monosay-conversations.png" style="margin: 50px 20px; padding: 8px; box-shadow: 0 0 20px 0 #ddd" />
+<div id="ms_dashboard" class="browser-mockup with-url" style="padding:0 !important;">
+    <img src="/img/screenshots/monosay-analytics.png"  />
+</div>
+
+<div id="ms_conversations" class="browser-mockup with-url" style="padding:0 !important;">
+    <img src="/img/screenshots/monosay-conversations.png" />
+</div>
 
 <i class="fas fa-check"></i> Congratulations! You have finally implemented <strong>{mono}say</strong> into your Bot.
 
-Do you want more?
+### Do you want more?
 
 [<i class="fas fa-user"></i> Updating User Information](msbot-nodejs-user.md)
 
